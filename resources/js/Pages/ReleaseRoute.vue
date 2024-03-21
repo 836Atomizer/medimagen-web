@@ -10,10 +10,7 @@
                 </router-link>
                 <br>
             </div>
-        </div>
-        
-        <button @click.prevent="triggerEndpoint">Trigger Endpoint</button>
-        <p v-if="response">{{ response }}</p>
+        </div>    
     </div>
 </template>
 

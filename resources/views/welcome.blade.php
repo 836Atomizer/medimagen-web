@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="es">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Medimagen | Laboratorio</title>
+        <title>I.E. CORONEL GREGORIO ALBARRACÍN | CAMPUS PAGINA WEB</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">

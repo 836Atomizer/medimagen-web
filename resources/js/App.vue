@@ -20,13 +20,21 @@
       
   
       <!-- Router View -->
-      <router-view v-slot="{ Component, route }">
-        <div class="container">
-          <div :key="route.name">
-            <Component :is="Component" />
+        <router-view v-slot="{ Component, route }">
+          <transition mode="out-in" name="fade">
+          <div class="container">
+            <div :key="route.name">
+              <Component :is="Component" />
+            </div>
           </div>
+          </transition>
+        </router-view>
+      <hr>
+      <footer>
+        <div class="container mt-4 bg-red py-3">
+          <small class="text-center"><b><center>ALBARRACIN EDUCA | &copy 2024</center></b></small>
         </div>
-      </router-view>
+      </footer>
     </div>
   </template>
   <script>
@@ -55,12 +63,14 @@ export default {
     color: rgba(141, 10, 1, 0.7);
 }
 
+.bg-red{
+  background-color: rgba(141, 10, 1);
+  color: white;
+}
+
 .container {
   max-width: 960px;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 h1 {
@@ -88,5 +98,11 @@ router-link:hover {
 }
 p{
     font-size: 20px;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .4s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
 }
 </style>
