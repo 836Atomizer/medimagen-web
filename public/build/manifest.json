@@ -5,7 +5,7 @@
     "isEntry": true
   },
   "resources/js/Pages/HomeRoute.vue": {
-    "file": "assets/HomeRoute-BhLveLv8.js",
+    "file": "assets/HomeRoute-D0xL6Jxe.js",
     "src": "resources/js/Pages/HomeRoute.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -13,7 +13,7 @@
     ]
   },
   "resources/js/Pages/ReleaseRoute.vue": {
-    "file": "assets/ReleaseRoute-D4YnfvNC.js",
+    "file": "assets/ReleaseRoute-BbEwFjso.js",
     "src": "resources/js/Pages/ReleaseRoute.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -21,7 +21,7 @@
     ]
   },
   "resources/js/Pages/ViewReleaseRoute.vue": {
-    "file": "assets/ViewReleaseRoute-L52dC_LR.js",
+    "file": "assets/ViewReleaseRoute-D3gJhEvS.js",
     "src": "resources/js/Pages/ViewReleaseRoute.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -29,7 +29,7 @@
     ]
   },
   "resources/js/app.js": {
-    "file": "assets/app-Dtq2ZVx5.js",
+    "file": "assets/app-C-a9Lm_4.js",
     "src": "resources/js/app.js",
     "isEntry": true,
     "dynamicImports": [
@@ -38,7 +38,7 @@
       "resources/js/Pages/ViewReleaseRoute.vue"
     ],
     "css": [
-      "assets/app-CaUvhDjp.css"
+      "assets/app-BpNozZKm.css"
     ]
   }
 }
