@@ -1,0 +1,44 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-l0sNRNKZ.js",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/Pages/HomeRoute.vue": {
+    "file": "assets/HomeRoute-CbI1ffqL.js",
+    "src": "resources/js/Pages/HomeRoute.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/Pages/ReleaseRoute.vue": {
+    "file": "assets/ReleaseRoute-Dh_qaKBC.js",
+    "src": "resources/js/Pages/ReleaseRoute.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/Pages/ViewReleaseRoute.vue": {
+    "file": "assets/ViewReleaseRoute-BWvN_oY5.js",
+    "src": "resources/js/Pages/ViewReleaseRoute.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-ryD5buGh.js",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/HomeRoute.vue",
+      "resources/js/Pages/ReleaseRoute.vue",
+      "resources/js/Pages/ViewReleaseRoute.vue"
+    ],
+    "css": [
+      "assets/app-B2U4Iv3F.css"
+    ]
+  }
+}
